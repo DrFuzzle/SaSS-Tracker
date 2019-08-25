@@ -1,8 +1,9 @@
 import java.util.Calendar;
+import java.util.Date;
 import java.util.ArrayList;
 
 public class Pregnancy {
-	private java.util.Date inseminationDate;
+	private Date inseminationDate;
 	
 	private OC dam;
 	private OC sire;

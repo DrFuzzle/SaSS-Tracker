@@ -4,36 +4,36 @@ public class Pony {
 	//Fuck if I know how it works
 	
 	//Pony Coat
-	private Gene coatColour;
-	private Gene coatPattern;
-	private Gene coatType;
+	private Trait coatColour;
+	private Trait coatPattern;
+	private Trait coatType;
 	
 	//Pony Mane
-	private Gene maneType;
-	private Gene maneColourOne;
-	private Gene maneColourTwo;
-	private Gene maneColourHighlight;
+	private Trait maneType;
+	private Trait maneColourOne;
+	private Trait maneColourTwo;
+	private Trait maneColourHighlight;
 	
 	//Pony Tail
-	private Gene tailType;
-	private Gene tailColourOne;
-	private Gene tailColourTwo;
-	private Gene tailColourHighlight;
+	private Trait tailType;
+	private Trait tailColourOne;
+	private Trait tailColourTwo;
+	private Trait tailColourHighlight;
 	
 	//Pony Eyes
-	private Gene eyeType;
-	private Gene eyeColour;
+	private Trait eyeType;
+	private Trait eyeColour;
 	
 	//Unicorn Horn
-	private Gene hornType;
-	private Gene hornSize;
-	private Gene hornColour;
+	private Trait hornType;
+	private Trait hornSize;
+	private Trait hornColour;
 	
 	//Pegasus Wing
-	private Gene wingType;
-	private Gene wingColourOne;
-	private Gene wingColourTwo;
+	private Trait wingType;
+	private Trait wingColourOne;
+	private Trait wingColourTwo;
 	
 	//Hoof Type
-	private Gene hoofType;
+	private Trait hoofType;
 }
