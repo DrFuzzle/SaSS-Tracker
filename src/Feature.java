@@ -26,6 +26,7 @@ public class Feature {
 		}
 		this.setName(f1.getName());
 		this.setDescription(f1.getDescription());
+		setTraits(new ArrayList<Trait>());
 		
 		for (int i = 0; i < f1.getTraits().size(); i++) {
 			Trait currentTrait = f1.getTraits().get(i);
@@ -44,7 +45,6 @@ public class Feature {
 				throw new Exception("No Trait to Breed With");
 			}
 			
-			setTraits(new ArrayList<Trait>());
 			this.addTrait(new Trait(currentTrait, breedTrait));
 		}
 	}

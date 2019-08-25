@@ -120,14 +120,17 @@ public class OC {
 	}
 	
 	public void describe() {
+		System.out.println(this.getName()+": ");
+		System.out.println("");
 		for (int i = 0; i < features.size(); i++) {
 			System.out.println(features.get(i).getName()+": ");
 			
 			ArrayList<Trait> traitlist = features.get(i).getTraits();
-			for (int j = 0; j < traitlist.size(); i++) {
+			for (int j = 0; j < traitlist.size(); j++) {
 				Trait current = traitlist.get(j);
 				System.out.println(current.getName() + ": " + current.getExpression());
 			}
+			System.out.println("");
 			
 		}
 	}

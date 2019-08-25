@@ -24,6 +24,15 @@ public class Pony {
 	private Trait eyeType;
 	private Trait eyeColour;
 	
+	//Hoof Type
+	private Trait hoofType;
+	
+	//Ears
+	private Trait earType;
+	
+	//Mouth
+	private Trait mouthType;	
+	
 	//Unicorn Horn
 	private Trait hornType;
 	private Trait hornSize;
@@ -33,7 +42,4 @@ public class Pony {
 	private Trait wingType;
 	private Trait wingColourOne;
 	private Trait wingColourTwo;
-	
-	//Hoof Type
-	private Trait hoofType;
 }
