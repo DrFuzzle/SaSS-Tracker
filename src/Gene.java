@@ -1,5 +1,10 @@
 
 public class Gene {
-	private String dominant;
-	private String rescessive;
+	private class Trait{
+		public String expression;
+		public int dominance;
+	}
+	
+	private Trait dominant;
+	private Trait recessive;
 }

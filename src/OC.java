@@ -1,4 +1,9 @@
+import java.util.ArrayList;
 
 public class OC {
-	//Interface for OCs
+
+	private String name;
+	private String age;
+	
+	private ArrayList<Feature> features;
 }
