@@ -24,7 +24,7 @@ public class OC {
 		this.setFeatures(new ArrayList<Feature>()); 
 	}
 	
-	public OC (OC father, OC mother) throws Exception {
+	public OC (OC mother, OC father) throws Exception {
 		this.setName("newborn");
 		this.setBirthDate(LocalDateTime.now());
 		this.setNotes("");
@@ -34,11 +34,15 @@ public class OC {
 		
 		this.setFeatures(new ArrayList<Feature>());
 		
+		Feature currentFeat;
+		String currentName;
+		Feature breedFeat;
+		
 		for (int i = 0; i < mother.getFeatures().size(); i++) {
-			Feature currentFeat = mother.getFeatures().get(i);
-			String currentName = currentFeat.getName();
+			currentFeat = mother.getFeatures().get(i);
+			currentName = currentFeat.getName();
 				
-			Feature breedFeat = null;
+				breedFeat = null;
 			for (int j = 0; j < father.getFeatures().size(); j++) {
 				Feature secFeat = father.getFeatures().get(j);
 				if (secFeat.getName().equals(currentName)){
